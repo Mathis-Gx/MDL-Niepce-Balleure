@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+    color: #fff;
+}
+
+header img {
+    width: 150px;
+}
+
+header h1 {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    color: #8d07f6;
+}
+
+section {
+    text-decoration: none;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+section .propositions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.vote-count {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+section .propositions img {
+    width: 250px;
+}
+
+section .propositions button {
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    width: 125px;
+    height: 30px;
+}
+
+section .propositions button a:hover {
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: beige;
+    border-radius: 8px;
+    width: 127px;
+    height: 33px;
+}
+
+section .vetements {
+    border-top: 1px solid  #8d07f6;
+    margin-top: 15px;
+}
+
+#proposition_1 {
+    background-color: #8d07f6;
+    padding: 20px;
+    width: 350px;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#proposition_2 {
+    background-color: #8d07f6;
+    padding: 20px;
+    width: 350px;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .retrouvez_nous {
+    border-top: 1px solid  #8d07f6;
+    margin-top: 15px;
+}
+
+footer {
+    background: #1f2024;
+    color: #fff;
+    text-decoration: none;
+    border-top: 5px solid #8d07f6;
+    text-align: center;
+    padding: 10px;
+}  
+
+footer ul li {
+    padding-left: 20px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer ul li img {
+    width: px;
+    height: 30px;
+}
+
+footer p {
+    padding-bottom: 30px;
+    font-size: 16px;
+}  
