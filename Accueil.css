@@ -76,7 +76,7 @@ section .propositions button a:hover {
 section .vote {
     background-color: slategray;
     text-decoration: none;
-    color: black;
+    color: red;
     width: 200px;
     margin: auto;
     text-align: center;
